@@ -1,0 +1,18 @@
+msg:
+	id:
+	content:
+	time:
+
+reply:
+	parent_id:(msg::id)
+	content:[json]
+
+user:
+	id:21312312   							//for send 
+	usr_name:IN CHINESE						//for view
+	usr_email:								//for login
+	user_follow:[1,2,31,23,12,3,2]			//for genarate a user's timeline
+	user_msg:[9,8,6,2,1]					//store user's msg id...
+	being_follow:[1,2,3,3,123]				//for future
+
+
